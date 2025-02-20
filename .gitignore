@@ -1,0 +1,7 @@
+Display/venv
+CameraHandler/venv
+Telegram/venv
+Display__pycache__/
+CameraHandler__pycache__/
+Telegram__pycache__/
+.env
