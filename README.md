@@ -1,3 +1,4 @@
+# Smart Pole Project
 
 ## Modules
 
@@ -19,6 +20,13 @@ This module manages the display of data and the graphical user interface.
 - `serviceRunner.py`: Script to run display services.
 - `updated_gui.py`: Main GUI script.
 
+### Telegram
+
+This module handles Telegram bot operations.
+
+- `oneM2Mget.py`: Script for oneM2M communication.
+- `telegramBot.py`: Script for Telegram bot functionality.
+
 ## Installation
 
 1. Clone the repository:
@@ -35,6 +43,7 @@ This module manages the display of data and the graphical user interface.
     ```sh
     pip install -r CameraHandler/requirements.txt
     pip install -r Display/requirement.txt
+    pip install -r Telegram/requirements.txt
     ```
 
 ## Usage
@@ -49,6 +58,11 @@ This module manages the display of data and the graphical user interface.
     python Display/serviceRunner.py
     ```
 
+3. Run the Telegram bot:
+    ```sh
+    python Telegram/telegramBot.py
+    ```
+
 ## License
 
-This project is licensed under the Intel License Agreement for Open Source Computer Vision Library. See the haarcascade_frontalface_default.xml file for details.
+This project is licensed under the Intel License Agreement for Open Source Computer Vision Library. See the `haarcascade_frontalface_default.xml` file for details.
